@@ -1,0 +1,65 @@
+body{
+    font-style: normal;
+    font-weight: normal;
+}
+
+h3{
+	text-align: center;
+
+}
+
+#posts{
+	
+	height: 100%;
+	width: 800px;
+	margin: 0 auto;
+}
+
+/** border of the forums border **/
+#newsFeed{
+    background-color: #9b6431;
+    padding: 10px;
+    margin: 0 auto;
+     
+}
+
+.post{
+	border: solid 2px;
+     margin: 20px;
+}
+
+.post p{
+	color: black;
+     word-wrap: break-word;
+	margin: 10px;
+     font-style: normal;
+	font-size: 20px;
+     text-align: left;
+}
+
+.message{
+	color: black;
+     word-wrap: break-word;
+	margin: 10px;
+     font-style: normal;
+	font-size: 20px;
+     text-align: left;
+}
+
+.post > .timeStamp{
+
+	margin: 3px;
+	text-align: right;
+	font-size: .8em;
+     color: white;
+	
+}
+
+/** input box **/
+#newPost{
+    font-size: 20px;
+	width: 92%;
+	height: 40px;
+     word-wrap: break-word;
+	border: solid #444444 2px;
+}

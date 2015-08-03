@@ -1,0 +1,222 @@
+*
+{
+	margin: 0px;
+}
+
+body {
+	text-align: center;
+	background-color: #d7aa82;
+}
+
+/** Home Page Title **/
+h1 {
+	font-family: Brush Script MT;
+	font-size: 60px;
+	font-style: italic;
+	font-variant: normal;
+	line-height: 0px;
+	color: #EEE;
+	text-align: center;
+	text-shadow: 4px 4px 1px #300000;
+	margin-top: 29px;
+}
+
+/** make title clickable **/
+#title a
+{
+	color: white;
+	text-decoration: none;
+}
+
+/** sub heading **/
+h2
+{
+	font-size: 17px;
+	color: white;
+	text-align: right;
+	margin: 12px;
+}
+
+/** content bar headings **/
+h3
+{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin: 12px;
+	
+}
+
+/** sub heading text **/
+.p {
+	float: center; 
+	font-family: Vollkorn;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 25.5px;
+	color: #EEE;
+	margin-top: 40px;
+}
+
+.slogan
+{
+	text-align: center;
+}
+
+.p1
+{
+	float: center; 
+	text-align: left;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 25.5px;
+	color: #EEE;
+	
+}
+
+/**fun facts bar heading **/
+.p2 {
+	color: white;
+	text-align: center;
+	font-family: Vollkorn;
+	font-size: 24px;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: 700; /** makes text look fuller **/
+}
+
+.p3 {
+	font-size: 28px;
+	font-style: italic;
+}
+
+#about_section
+{
+	height: 800px;
+}
+
+#aboutUs
+{
+	font-style: normal;
+}
+
+.p5 a{
+	color: black;
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+.p5 a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+/** Navigation Bar Style **/
+.navbar
+{
+	float: left;
+	background-color: #9b6431;
+	margin-left: 12px;
+	margin-top: 40px;
+}
+
+/** navbar items **/
+#menu_items
+{
+	float: left;
+	list-style-type: none;
+	width:165px;
+	padding: 3px;
+}
+
+/** current active page **/
+.current
+{
+	background-color: #bf6f00;
+	color: white;
+}
+
+li:hover {
+	background-color: #bf6f00;
+}
+
+#menu_items a
+{
+	padding: 8px;	
+	font-family: Vollkorn;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	display: block;
+	text-align: center;
+}
+
+a:hover
+{
+	color: white;	
+}
+
+/** content div **/
+.middlebar
+{
+	float: left;
+	margin-left: 12px;
+	margin-top: 40px;
+	padding: 0px;
+	font-size: 20px;
+	height: 565px;
+	width: 68.5%;
+	background-color: #9b6431;
+}
+
+/** div with fun facts**/
+.factsbar
+{
+	float: left;
+	margin-left: 12px;
+	margin-top: 40px;
+	padding: 9px;
+	height: 449px;
+	width: 159px;
+	background-color: #9b6431;
+}
+
+audio
+{
+	margin-top: 34px;
+	width: 430px;
+}
+
+.types  /** links for chocolate types **/
+{
+	text-decoration: none;
+}
+
+a.types {
+	color: black;
+}
+
+.types:hover
+{
+	color: white;
+}
+
+#cellphone
+{
+	float: left;
+}
+
+#map
+{
+	float: center;
+}
+
+#mail
+{
+	float: right;
+}

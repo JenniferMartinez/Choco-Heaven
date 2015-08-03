@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Choco Heaven</title>
+
+		<link href="css/main.css" rel="main stylesheet" type= "text/css">
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:700' rel='stylesheet' type='text/css'>
+		<link rel = "forums stylesheet" type = "text/css" href = "css/forums.css">
+          <script src="js/main.js"></script>
+          <script src= "js/forums.js"></script>
+
+	</head>
+	
+<body background="images/drip.png">
+
+	<h1 id= "title"><a href= "index.html">Choco Heaven</a></h1>
+
+	<p class= "p slogan">Your place for all things chocolate</p>
+
+	<br>
+	<br>
+
+	<nav class="navbar">
+		<ul id= "menu_items">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="types.html">Types of Chocolate</a></li>
+			<li class= "current"><a href="forums.html">ChocoForums</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+
+	<div class="middlebar" style= "height: 467px;">
+	
+		<br>
+		<h3>What's Your Favorite Type of Chocolate and Why?</h3>
+		<br>
+          <input type = "text" id = "newPost" placeholder = "Type your message here" onkeydown = "post(event)">
+               <button onclick = "addPost()" >Add Post</button>
+               <button onclick = "history.go(-1)">Back to Forums</button>
+		
+          <div id= "newsFeed">
+            
+            <div class= "post" >
+                <p class= "message" >White chocolate, hands down.</p>
+                <p class= "timeStamp">posted by Clark H. on Mon Jul 27 2015 10:19:26 GMT-0400 (Eastern Standard Time)</p>
+                     
+            </div>
+            
+            <div class= "post" >
+                <p class= "message" >Dark chocolate will always be my guilty pleasure :)</p>
+                <p class= "timeStamp">posted by Rihanna K. on Mon Jul 27 2015 10:28:23 GMT-0400 (Eastern Standard Time)</p>       
+            </div>
+            
+          </div>
+          
+	</div>
+
+	<div class="factsbar">
+	
+		<br>
+		<p class= "p1" >Did you know? </p>
+		<br>
+		
+		<p class= "p3"> The smell of chocolate increases brain waves that help
+		trigger relaxation. </p>
+		
+		<img src="images/sniff.jpg" alt="Relaxation"
+			style="width: 150px; height: 135px;margin-top:10px;" >
+	</div>
+
+</body>
+</html>
